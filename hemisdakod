@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Humanland – Hållbar Trädgård & Samtal</title>
+  <style>
+    body {
+      font-family: Garamond, serif;
+      background-color: #fdfcf7;
+      color: #225533;
+      margin: 0;
+      padding: 0;
+    }
+    header, footer {
+      background-color: #d4af37;
+      color: white;
+      padding: 1em;
+      text-align: center;
+    }
+    nav {
+      background-color: #225533;
+      color: white;
+      display: flex;
+      justify-content: center;
+      gap: 2em;
+      padding: 1em;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+    }
+    section {
+      padding: 2em;
+      max-width: 800px;
+      margin: auto;
+    }
+    h1, h2 {
+      color: #225533;
+    }
+    .button {
+      background-color: #225533;
+      color: white;
+      padding: 0.7em 1.5em;
+      text-decoration: none;
+      border-radius: 5px;
+      display: inline-block;
+      margin-top: 1em;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Humanland</h1>
+    <p>Medkänsla • Innovation • Tillit</p>
+  </header>
+
+  <nav>
+    <a href="#">Hem</a>
+    <a href="#vision">Vision</a>
+    <a href="#tjanster">Tjänster</a>
+    <a href="#coach">Samtalscoaching</a>
+    <a href="#tradgardsmastare">För trädgårdsmästare</a>
+    <a href="#kontakt">Kontakt</a>
+  </nav>
+
+  <section id="vision">
+    <h2>Vår vision</h2>
+    <p>
+      En grönare framtid börjar i trädgården. Vi vill inspirera och möjliggöra
+      hållbar trädgårdsskötsel för både yrkesverksamma och entusiaster. Våra
+      ledord är <strong>medkänsla</strong>, <strong>innovation</strong> och
+      <strong>tillit</strong>.
+    </p>
+  </section>
+
+  <section id="tjanster">
+    <h2>Vad vi erbjuder</h2>
+    <ul>
+      <li>Komposterbara material och trädgårdsredskap</li>
+      <li>Ekologiska växtnäringar och jordar</li>
+      <li>Digitala verktyg för planering och dokumentation</li>
+      <li>Rådgivning för klimatsmart design</li>
+    </ul>
+  </section>
+
+  <section id="coach">
+    <h2>Samtalscoaching för en hållbar livsstil</h2>
+    <p>
+      Hos Humanland erbjuder vi coachande samtal med en certifierad samtalscoach – ett tryggt och inspirerande rum för dig som vill leva mer hållbart, både i vardagen och i arbetet.
+    </p>
+    <ul>
+      <li>Utforska dina värderingar och vanor</li>
+      <li>Få stöd att skapa balans mellan arbete och natur</li>
+      <li>Vägledning mot en meningsfull och hållbar livsstil</li>
+    </ul>
+    <a class="button" href="mailto:info@humanland.se?subject=Boka%20samtalscoaching">Boka ett samtal</a>
+  </section>
+
+  <section id="tradgardsmastare">
+    <h2>För trädgårdsmästare</h2>
+    <p>
+      Vi riktar oss särskilt till trädgårdsmästare och landskapsarkitekter som vill arbeta hållbart. Vi erbjuder:
+    </p>
+    <ul>
+      <li>Kurser och workshops i hållbar trädgårdsskötsel</li>
+      <li>Konsulttjänster för kommuner och företag</li>
+      <li>Individuell coachning inom yrket</li>
+    </ul>
+    <a class="button" href="mailto:info@humanland.se?subject=Intresse%20f%C3%B6r%20samarbete">Bli samarbetspartner</a>
+  </section>
+
+  <section id="kontakt">
+    <h2>Kontakt</h2>
+    <p><strong>Liza Piotrowska</strong><br />
+      E-post: <a href="mailto:info@humanland.se">info@humanland.se</a><br />
+      Följ oss på Instagram & Facebook: @humanland.se</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Humanland</p>
+  </footer>
+</body>
+</html>
